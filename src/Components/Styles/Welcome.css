@@ -1,3 +1,40 @@
 .titulo1{
-    color: rgb(2, 4, 97);
+    text-shadow: 2px 2px 2px rgb(1, 1, 32);
+}
+.texto1{
+    text-shadow: 2px 2px 2px rgb(1, 1, 32);
+}
+
+#imgMA{
+ border-radius: 50%;
+ margin-top: 60px;
+ border: 1px solid rgb(0, 7, 27)
+}
+@media (max-width: 1400px){
+    #div-img{
+        height: 100vh;
+        background-image: url("./../../images/fondo3.jpeg");
+    } 
+}
+@media (max-width: 900px){
+    #div-img{
+        height: 80vh;   
+    } 
+    #imgMA{
+        height: 95%;
+    }
+    .titulo1{
+        font-size:30px ;
+    }
+}
+@media (max-width: 600px){
+    #div-img{
+        height: 140vh;
+    }
+    #imgMA{
+        height: 90%;
+    }
+
+    
+
 }
