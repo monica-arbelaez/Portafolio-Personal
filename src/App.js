@@ -12,10 +12,10 @@ function App() {
       <Nav/>
       <Welcome 
       ImagenMA= {require('./images/monica.png')}
-      title1='Mónica Arbeláez López.'
       title2='Front-end Developer.'
-      text1='Developer en formación. Soy artista plástica Antioqueña, ilustradora y fotógrafa, apasiona por los retos y
-      la tecnología.'
+      // text1='Developer en formación.' 
+      // Soy artista plástica Antioqueña, ilustradora y fotógrafa, apasiona por los retos y
+      // la tecnología.'
       />
       <Projects
       title= 'PROJECTS'

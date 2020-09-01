@@ -1,38 +1,70 @@
 .titulo1{
-    text-shadow: 2px 2px 2px rgb(1, 1, 32);
-}
-.texto1{
-    text-shadow: 2px 2px 2px rgb(1, 1, 32);
+    color: rgb(0, 0, 0);
+
 }
 
+#div-img{
+    height: 100vh;
+    background-image: url("./../../images/fondo3.jpg");
+    
+    
+} 
+#welcome{
+    padding: 20px;
+    margin-top:100px ;
+}
+
+
 #imgMA{
- border-radius: 50%;
- margin-top: 60px;
- border: 1px solid rgb(0, 7, 27)
+    background-color: transparent !important;
+    width: 350px;
+    border:none ;
+    margin-top: 65px;
+    
 }
 @media (max-width: 1400px){
     #div-img{
         height: 100vh;
-        background-image: url("./../../images/fondo3.jpeg");
+        background-image: url("./../../images/fondo3.jpg");
     } 
 }
-@media (max-width: 900px){
+@media (max-width: 1200px){
     #div-img{
-        height: 80vh;   
+        height: 83vh;   
     } 
     #imgMA{
-        height: 95%;
+        height:100%;
+        width:100% ;
+        margin:164px 50px 0px 0px;
     }
     .titulo1{
-        font-size:30px ;
+        font-size:50px ;
     }
 }
 @media (max-width: 600px){
     #div-img{
-        height: 140vh;
+        height: 100vh;  
     }
     #imgMA{
-        height: 90%;
+        height: 85%;
+        width: 85%;
+        margin: 47px 10px 0px 0px;
+    }
+    .titulo1{
+        font-size:45px ;
+        color: rgb(187, 0, 31);
+    } 
+    @media (max-width: 400px){
+        #imgMA{
+            margin: 119px 30px 0px 0px;
+        }
+        .titulo1{
+            font-size:40px ;
+            color: rgb(187, 0, 31);
+        }    
+        #div-img{
+            height: 100vh;  
+        }
     }
 
     

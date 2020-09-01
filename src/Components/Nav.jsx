@@ -29,13 +29,15 @@ class Nav extends React.Component {
                 <header className="header">
                     <div className="container-{breakpoint} fixed-top justify-content-center">
                         <nav
-                            className="navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-light bg-white justify-content-between text-responsive ">
-
+                            className="navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-light justify-content-between text-responsive ">
+                                    <a id= "name" className="navbar-brand" href="#">
+                                        <h2 id= "name" className="nombre text-responsive">Mónica Arbeláez López</h2>
+                                        </a>
                             <button className="navbar-toggler" type="button" onClick={this.toggleMenu}>
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className={"collapse navbar-collapse justify-content-end " + show}>
-                                <div id="textlink" className="navbar-nav bg-white ">
+                                <div id="textlink" className="navbar-nav  ">
                                     <a id="linksito" className="nav-item nav-link active " href="#welcome">WELCOME</a>
                                     <a id="linksito" className="nav-item nav-link " href="#projects">PROJECTS</a>
                                     <a id="linksito" className="nav-item nav-link " href="#contact">CONTACT</a>

@@ -1,10 +1,14 @@
-.header{
-    font-size: 20px;
-    
+
+#name{
+    /* text-shadow: 2px 2px 2px rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
 }
 #linksito{
-    color: rgb(2, 4, 97);
-}
+    /* text-shadow: 1px 1px 1px rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 0px 0px 0px 30px ;
+}    
 @media (max-width: 900px) {
     #textlink{
     display: flex;
@@ -12,8 +16,24 @@
     justify-content: center;
   }
   #textlink a{
-      margin: -40px 0px 0px 30px ;
-     font-size: 17px;
+      margin: 5px 0px 0px 30px ;
+      font-weight: 500;
+      justify-content: center;
+    
+    }
+    #name {
+        color: rgb(87, 87, 87);
     }
    
+}
+@media (max-width: 600px){
+    #textlink a{
+        font-size: 18px;
+        margin-bottom: 20px;
+      
+    }
+    #textlink{
+        margin: -15px 0px 3px 10px;
+    }
+    
 }
