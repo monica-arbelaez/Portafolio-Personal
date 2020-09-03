@@ -1,11 +1,13 @@
-
+.header{
+    font-size: 20px;
+}
 #name{
-    /* text-shadow: 2px 2px 2px rgb(255, 255, 255); */
-    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 #linksito{
-    /* text-shadow: 1px 1px 1px rgb(255, 255, 255); */
-    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     margin: 0px 0px 0px 30px ;
 }    
@@ -17,23 +19,19 @@
   }
   #textlink a{
       margin: 5px 0px 0px 30px ;
-      font-weight: 500;
       justify-content: center;
     
     }
     #name {
-        color: rgb(87, 87, 87);
+        color: rgb(255, 255, 255);
     }
    
 }
 @media (max-width: 600px){
-    #textlink a{
-        font-size: 18px;
-        margin-bottom: 20px;
-      
-    }
+    
     #textlink{
-        margin: -15px 0px 3px 10px;
+        margin: 0px 0px 2px -25px;
+        font-size: 15px;
     }
     
 }

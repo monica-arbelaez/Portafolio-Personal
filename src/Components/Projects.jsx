@@ -14,7 +14,7 @@ export default class Proyects extends Component {
         return (
             <div>
                 <div>
-                    <h2 id="projects" className="titulo2" style={{ 'padding': '60px' }}>{title}</h2>
+                    <h2 id="proyectos" className="titulo2" style={{ 'padding': '60px' }}>{title}</h2>
                  </div>
                 <div class="container-fluid float-right d-flex flex-wrap">
                     <div class="row row-cols-1 row-cols-md-4">

@@ -1,72 +1,76 @@
-.titulo1{
-    color: rgb(0, 0, 0);
+body{
+    font-family: 'Bree Serif', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Source Code Pro', monospace;
+}
 
+.titulo1{
+    font-size: 30px;
+
+}
+.texto1{
+  font-size: 70px;
 }
 
 #div-img{
     height: 100vh;
-    background-image: url("./../../images/fondo3.jpg");
-    
-    
-} 
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(22, 22, 22));
+}
 #welcome{
     padding: 20px;
     margin-top:100px ;
+    text-align: start;
 }
 
 
 #imgMA{
     background-color: transparent !important;
-    width: 350px;
+    width: 440px;
     border:none ;
-    margin-top: 65px;
+    margin: 2px -400px 0px 0px ;
     
 }
-@media (max-width: 1400px){
-    #div-img{
-        height: 100vh;
-        background-image: url("./../../images/fondo3.jpg");
-    } 
+@media (max-width: 1300px){
+    #imgMA{
+        height:90%;
+        width:90% ;
+        margin:179px -160px 0px 0px;
+    }
+ 
 }
-@media (max-width: 1200px){
-    #div-img{
-        height: 83vh;   
-    } 
+@media (max-width: 1000px){
     #imgMA{
         height:100%;
         width:100% ;
-        margin:164px 50px 0px 0px;
+        margin:287px -160px 0px 0px;
     }
     .titulo1{
-        font-size:50px ;
+        font-size:30px ;
+    }
+    .texto1{
+        font-size: 45px;
     }
 }
 @media (max-width: 600px){
-    #div-img{
-        height: 100vh;  
-    }
     #imgMA{
-        height: 85%;
-        width: 85%;
-        margin: 47px 10px 0px 0px;
+        margin: 67px 10px 0px 0px;
+        height:93%;
+        width:93% ;
     }
     .titulo1{
-        font-size:45px ;
-        color: rgb(187, 0, 31);
-    } 
+        font-size:25px ;
+        margin-top: 60px;
+    }
+    .texto1{
+        font-size: 35px;
+    }
     @media (max-width: 400px){
         #imgMA{
+            margin: 67px 10px 0px 0px;
+            height:96%;
+            width:96% ;
             margin: 119px 30px 0px 0px;
         }
-        .titulo1{
-            font-size:40px ;
-            color: rgb(187, 0, 31);
-        }    
-        #div-img{
-            height: 100vh;  
-        }
     }
-
-    
-
 }

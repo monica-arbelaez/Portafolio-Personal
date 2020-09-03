@@ -31,16 +31,17 @@ class Nav extends React.Component {
                         <nav
                             className="navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-light justify-content-between text-responsive ">
                                     <a id= "name" className="navbar-brand" href="#">
-                                        <h2 id= "name" className="nombre text-responsive">Mónica Arbeláez López</h2>
+                                        <h2 id= "name" className="nombre text-responsive">Mónica</h2>
                                         </a>
                             <button className="navbar-toggler" type="button" onClick={this.toggleMenu}>
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className={"collapse navbar-collapse justify-content-end " + show}>
                                 <div id="textlink" className="navbar-nav  ">
-                                    <a id="linksito" className="nav-item nav-link active " href="#welcome">WELCOME</a>
-                                    <a id="linksito" className="nav-item nav-link " href="#projects">PROJECTS</a>
-                                    <a id="linksito" className="nav-item nav-link " href="#contact">CONTACT</a>
+                                    <a id="linksito" className="nav-item nav-link active " href="#inicio">INICIO</a>
+                                    <a id="linksito" className="nav-item nav-link " href="#quien-soy">QUIEN SOY</a>
+                                    <a id="linksito" className="nav-item nav-link " href="#proyectos">PROYECTOS</a>
+                                    <a id="linksito" className="nav-item nav-link " href="#contacto">CONTACTO</a>
                                 </div>
                             </div>
 
