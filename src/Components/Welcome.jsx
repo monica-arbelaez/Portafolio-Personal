@@ -20,7 +20,8 @@ export default class Welcome extends Component {
               <h1 className="texto1 text-white">{text1}</h1>
             </div>
             <div className="col-md-6 col-md-offset-6">
-              <img id="imgMA" className="img-thumbnail img-fluid" src={ImagenMA} alt="" />
+              <img id="imgMA" className="img-thumbnail style={{'maxWidth': '100%', height: 'auto'}} img-fluid" src={ImagenMA} alt="" />
+            
             </div>
           </div>
         </div>

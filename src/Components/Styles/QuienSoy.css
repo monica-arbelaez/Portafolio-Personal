@@ -1,6 +1,9 @@
-#quien-soy{
+/* #cont{
+    background-color: rgb(85, 85, 85);
     height: 100vh;
-    margin-top:  100px;
+} */
+#quien-soy{
+    margin-top:  200px;
     font-size: 50px;
 }
 .texto2{

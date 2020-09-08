@@ -28,8 +28,7 @@ class Nav extends React.Component {
             <div>
                 <header className="header">
                     <div className="container-{breakpoint} fixed-top justify-content-center">
-                        <nav
-                            className="navbar navbar-inverse navbar-static-top navbar-expand-lg navbar-light justify-content-between text-responsive ">
+                        <nav id='nav1' className="navbar navbar-inverse navbar-static-top  navbar-expand-lg navbar-light justify-content-between text-responsive ">
                                     <a id= "name" className="navbar-brand" href="#">
                                         <h2 id= "name" className="nombre text-responsive">Mónica</h2>
                                         </a>

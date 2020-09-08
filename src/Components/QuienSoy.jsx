@@ -5,8 +5,8 @@ export default class QuienSoy extends Component {
     render() {
         const{title2, text2} = this.props
         return (
-            <div>
-                 <div id="quien-soy" className= "container text-align-center justify-content-justify align-content-center flex-wrap"
+            <div id="quien-soy">
+                 <div  className= "container text-align-center justify-content-justify align-content-center flex-wrap"
                     style={{ 'padding': '60px' }}>
                     <h1 style={{ 'textAlign': 'center' }}>{title2}</h1>
                     <br />
