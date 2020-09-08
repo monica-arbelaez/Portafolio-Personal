@@ -12,7 +12,7 @@ export default class Welcome extends Component {
       
       <div id="inicio">
       <div id="div-img" >
-        <div  className="container" style={{ padding: "55px" }}>
+        <div  className="container" >
           <div className="row">
             <div  className="col-md-6 col-md-offset-6 align-self-center align-items-center justify-content-justify text-black ">
               
@@ -20,7 +20,7 @@ export default class Welcome extends Component {
               <h1 className="texto1 text-white">{text1}</h1>
             </div>
             <div className="col-md-6 col-md-offset-6">
-              <img id="imgMA" className="img-thumbnail style={{'maxWidth': '100%', height: 'auto'}} img-fluid" src={ImagenMA} alt="" />
+              <img id="imgMA" className="img-thumbnail style={{'maxWidth': '90%', height: 'auto'}} img-fluid" src={ImagenMA} alt="" />
             
             </div>
           </div>

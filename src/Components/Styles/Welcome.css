@@ -25,56 +25,44 @@ font-family: 'Source Code Pro', monospace;
 
 #imgMA{
     background-color: transparent !important;
-    width: 388px;
+    width: 75%;
     border:none ;
-    margin: 58px -400px 0px 0px ;
+    margin: 105px -400px 0px 0px ;
+
     
 }
-@media (max-width: 1000px){
+@media (min-width: 1025px) and (max-width: 1280px) {
     #imgMA{
-        height:82%;
-        width:82% ;
-        margin:71px -160px 0px 0px;
+       
+        height:65%;
+        width:65% ;
+        margin:234px -40px 0px 0px;
     }
  
 }
-@media (max-width: 900px){
+@media (min-width: 732px) and (max-width: 1024px){
     #imgMA{
-        height:95%;
-        width:95% ;
-        margin:100px -160px 0px 0px;
+        height:65%;
+        width:65% ;
+        margin:34px -40px 0px 0px;
     }
     .titulo1{
-        margin-top: 75px;
-        font-size:30px ;
-    }
-    .texto1{
-        font-size: 35px;
-    }
-}
-@media (max-width: 780px){
-    #imgMA{
-        height:70%;
-        width:70% ;
-        margin:50px -160px 0px 0px;
-    }
-    .titulo1{
-        margin-top: 75px;
+        margin-top: 135px;
         font-size:30px ;
     }
     .texto1{
         font-size: 45px;
     }
 }
-@media (max-width: 600px){
+@media (min-width: 411px) and (max-width: 731px){
     #imgMA{
-        margin: 70px 10px 0px 0px;
-           height:67%;
-            width:67% ;
+        margin: 78px 10px 0px 0px;
+        height:60%;
+        width:60% ;
     }
     .titulo1{
         font-size:25px ;
-        margin-top: 95px;
+        margin-top: 185px;
     }
     .texto1{
         font-size: 35px;
@@ -82,15 +70,18 @@ font-family: 'Source Code Pro', monospace;
     
    
 }
-@media (max-width: 500px){
-        #imgMA{
+@media (min-width: 320px) and (max-width: 410px){
+    #imgMA{
    
-            height:70%;
-            width:70% ;
-            margin: 85px 30px 0px 0px;
-        }
-        .titulo1{
-            font-size:25px ;
-            margin-top: 95px;
-        }
+        height:60%;
+        width:60% ;
+        margin: 60px 20px 0px 0px;
     }
+    .titulo1{
+        font-size:25px ;
+        margin-top: 255px;
+    }
+    .texto1{
+        font-size: 35px;
+    }
+}

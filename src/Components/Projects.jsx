@@ -16,8 +16,8 @@ export default class Proyects extends Component {
                 <div>
                     <h2 id="proyectos" className="titulo2" style={{ 'padding': '60px' }}>{title}</h2>
                  </div>
-                <div class="container-fluid float-right d-flex flex-wrap">
-                    <div class="row row-cols-1 row-cols-md-4">
+                <div className="container-fluid float-right d-flex flex-wrap">
+                    <div className="row row-cols-1 row-cols-md-4">
                         <div className="col-mb-4 col-md-offset-6">
                             <div className="card justify-content-center">
                                 <img src={TributePage} className="card-img-top" alt="..." />
