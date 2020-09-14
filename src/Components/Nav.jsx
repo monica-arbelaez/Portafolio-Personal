@@ -32,7 +32,7 @@ class Nav extends React.Component {
                                     <a id= "name" className="navbar-brand" href="#">
                                         <h2 id= "name" className="nombre text-responsive">Mónica</h2>
                                         </a>
-                            <button className="navbar-toggler" type="button" onClick={this.toggleMenu}>
+                            <button id='bt' className="navbar-toggler bg-white" type="button" onClick={this.toggleMenu}>
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className={"collapse navbar-collapse justify-content-end " + show}>

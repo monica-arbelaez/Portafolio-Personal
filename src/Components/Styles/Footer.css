@@ -1,0 +1,14 @@
+.footer{
+    height: 100hv;
+}
+#title h1{
+    font-size: 100px;
+}
+@media (min-width: 310px) and (max-width: 500px){
+    #title h1{
+        font-size: 50px;
+    } 
+    .Footer-text h3, h4{
+        font-size: 20px;
+    }
+}

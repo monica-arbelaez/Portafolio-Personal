@@ -1,0 +1,82 @@
+#proyectos{
+    height: 210vh;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(22, 22, 22));
+}
+#card1{
+    margin: 30px;
+}
+@media (min-width: 900px) and (max-width: 1000px){
+    #proyectos{
+        padding-top: 120px;
+        height: 195vh;
+       
+    } 
+}
+@media (min-width: 769px) and (max-width: 899px){
+    #proyectos{
+        padding-top:80px;
+        
+    } 
+}
+@media (min-width: 730px) and (max-width: 768px){
+    #proyectos{
+        padding-top:100px;
+        height: 810vh;
+    } 
+}
+@media (min-width: 651px) and (max-width: 729px){
+    #proyectos{
+        height: 770vh;
+        padding-top: 100px;
+        
+       
+    } 
+}
+@media (min-width: 551px) and (max-width: 650px){
+    #proyectos{
+        height: 710vh;
+        padding-top: 50px;
+        
+       
+    } 
+}
+@media (min-width: 500px) and (max-width: 550px){
+    #proyectos{
+        height: 635vh;
+        padding-top: 50px;
+        
+       
+    } 
+}
+@media (min-width: 451px) and (max-width: 499px){
+    #proyectos{
+        height: 600vh;
+        padding-top: 50px;
+        
+       
+    } 
+}
+@media (min-width: 400px) and (max-width: 450px){
+    #proyectos{
+        height: 550vh;
+        padding-top: 50px;
+       
+       
+    } 
+}
+@media (min-width: 350px) and (max-width: 399px){
+    #proyectos{
+        height: 522vh;
+        padding-top: 50px;
+       
+       
+    } 
+}
+@media (min-width: 310px) and (max-width: 349px){
+    #proyectos{
+        height: 486vh;
+        padding-top: 50px;
+       
+       
+    } 
+}

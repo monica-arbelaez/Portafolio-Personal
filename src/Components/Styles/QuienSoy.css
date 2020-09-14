@@ -1,11 +1,37 @@
-/* #cont{
-    background-color: rgb(85, 85, 85);
-    height: 100vh;
-} */
+
 #quien-soy{
-    margin-top:  200px;
     font-size: 50px;
+    height: 100vh;
+    padding: 20px;
 }
 .texto2{
     font-size: 20px;
+}
+@media (min-width: 900px) and (max-width: 10000px){
+    #quien-soy{
+        padding-top: 120px;
+       
+    } 
+}
+@media (min-width: 730px) and (max-width: 899px){
+    #quien-soy{
+        padding-top:150px;
+        height: 120vh;
+    } 
+}
+@media (min-width: 401px) and (max-width: 731px){
+    #quien-soy{
+        height: 155vh;
+        padding-top: 150px;
+        
+       
+    } 
+}
+@media (min-width: 319px) and (max-width: 400px){
+    #quien-soy{
+        height: 200vh;
+        padding-top: 100px;
+       
+       
+    } 
 }

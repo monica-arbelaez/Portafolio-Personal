@@ -14,7 +14,7 @@ export default class Welcome extends Component {
       <div id="div-img" >
         <div  className="container" >
           <div className="row">
-            <div  className="col-md-6 col-md-offset-6 align-self-center align-items-center justify-content-justify text-black ">
+            <div className="col-md-6 col-md-offset-6 align-self-center align-items-center justify-content-justify text-black ">
               
               <h3 className="titulo1 text-white" >{title1}</h3>
               <h1 className="texto1 text-white">{text1}</h1>
