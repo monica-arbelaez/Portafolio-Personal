@@ -7,7 +7,7 @@ import Pondcast from './../images/Pondcast.png'
 import Calculadora from './../images/calculadora.png'
 import Pokedex from './../images/pokedex.png'
 import Quote from './../images/Quote.png'
-import Drum from './../images/drum.png'
+import Drum from './../images/drum.PNG'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Styles/Projects.css";
 import "jquery";

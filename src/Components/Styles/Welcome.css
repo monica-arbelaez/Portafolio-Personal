@@ -37,6 +37,7 @@ font-family: 'Source Code Pro', monospace;
     .texto1{
         font-size: 42px;
     }
+    
 }
 @media (min-width: 411px) and (max-width: 900px){
 
@@ -47,13 +48,27 @@ font-family: 'Source Code Pro', monospace;
         font-size: 40px;
     }
 }
-@media (min-width: 320px) and (max-width: 770px){
+@media (min-width: 490px) and (max-width: 770px){
     #imgMA{
         width:40% ;
-        padding-top: 50px;
+        padding-top: 48px;
     }
     
 } 
+@media (min-width: 350px) and (max-width: 489px){
+    #imgMA{
+        width:42% ;
+        padding-top: 37px;
+    }
+    
+}
+@media (max-width: 350px){
+    #imgMA{
+        width:60% ;
+        padding-top: 43px;
+    }
+    
+}  
 @media (min-width: 580px) and (max-width: 770px){
     .titulo1{
         font-size:25px ;
